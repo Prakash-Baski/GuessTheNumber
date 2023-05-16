@@ -1,0 +1,97 @@
+/* Reset */
+
+:root {
+  --clr-neutral-100: #f0eeed;
+  --clr-secondary-100: aquamarine;
+  --clr-primary-800: #2e3840;
+}
+
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+body {
+  margin: 0;
+}
+
+/* General Styling */
+
+body {
+  font-family: 'Press Start 2P';
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-800);
+  padding: 2.5em 4em 0 4em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding: 5em 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infosection--right h3 {
+  margin-bottom: 3.125em;
+}
+
+.infosection--right p {
+  margin-top: 1em;
+}
+
+/* Design */
+
+h1 {
+  font-size: 2rem;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.secret--number {
+  display: inline-block;
+  margin-top: 1.5rem;
+  width: 10rem;
+  color: var(--clr-primary-800);
+  font-size: 4.5rem;
+  padding: 0.8rem;
+  background-color: var(--clr-secondary-100);
+}
+
+input {
+  border: 3px solid var(--clr-neutral-100);
+  width: 15rem;
+  min-height: 5rem;
+  font: inherit;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-primary-800);
+}
+
+.btn {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+
+.check--btn {
+  display: block;
+  margin-top: 1em;
+}
